@@ -1,0 +1,154 @@
+.details {
+    position: relative;
+}
+
+.details__bg {
+    opacity: 0.4;
+    z-index: 1;
+}
+.details__about {
+    min-height: 910px;
+}
+
+.datails__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: -66px -20px 110px;
+}
+
+.details__col {
+    flex: 1 1 50%;
+    padding: 0 20px;
+}
+
+.details__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 60px;
+
+    position: relative;
+    z-index: 2;
+    height: 100%;
+}
+
+.details__img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+
+        object-fit: cover;
+        z-index: 1;
+        opacity: 0.9;
+    }
+}
+
+.details__item-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    flex: 1 1 auto;
+}
+
+.intro__main-btn {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 62px;
+}
+
+.details__icon {
+    margin: 45px 0 10px;
+}
+
+.details__title {
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: "Source Code Pro", monospace;
+    font-size: 18px;
+}
+
+.details__text {
+    margin-bottom: 55px;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+// --------- details footer ------------
+.details__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+.details__footer-col {
+    flex: 1 1 50%;
+    width: 100%;
+    padding: 0 20px;
+
+    img {
+        padding-bottom: 50px;
+    }
+}
+
+.details__footer-header {
+    font-family: "Source Code Pro", monospace;
+    font-weight: 700;
+    color: $white;
+    font-size: 18px;
+    margin-bottom: 25px;
+    margin-top: 35px;
+
+    &::after {
+        content: url("../image/about/line.svg");
+        position: relative;
+        top: 10px;
+        left: -98px;
+    }
+}
+
+.details__footer-text {
+    margin-bottom: 25px;
+}
+
+.details__footer-suptext,
+.details__footer-text {
+    font-size: 16px;
+    color: $white;
+    line-height: 160%;
+    font-family: "Nunito", sans-serif;
+}
+
+.details__footer-suptext {
+    margin-bottom: 45px;
+}
+
+.details__footer-logo {
+    font-family: "Mrs Saint Delafield", cursive;
+    font-size: 40px;
+    margin-bottom: 18px;
+    color: $white;
+}
+
+.details__footer-underlogo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    color: $white;
+    text-transform: uppercase;
+}

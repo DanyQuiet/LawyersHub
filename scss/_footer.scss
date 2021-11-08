@@ -1,0 +1,56 @@
+.footer__body {
+    padding: 75px 0 190px;
+    position: relative;
+    z-index: 2;
+}
+
+.footer__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.footer__column {
+    flex: 1 1 25%;
+    padding: 10px 15px;
+}
+
+.footer__header {
+    font-family: "Source Code Pro", monospace;
+    font-size: 18px;
+    color: $white;
+    margin-bottom: 45px;
+}
+
+.footer__content {
+    font-family: "Nunito", sans-serif;
+    color: $white;
+    line-height: 170%;
+    font-size: 16px;
+}
+
+.footer__form-input {
+    margin: 20px 0;
+    width: 100%;
+    padding: 13px 15px;
+}
+
+.footer__form-btn {
+    padding: 13px 15px;
+    background: $blue;
+    color: $white;
+    font-weight: 700;
+    width: 100%;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.footer__content-wrap {
+    display: flex;
+}
+
+.footer__content-social {
+    padding-right: 25px;
+}

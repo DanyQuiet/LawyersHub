@@ -1,0 +1,9 @@
+.swiper {
+    width: 100%;
+}
+
+.swiper .swiper-button-prev::after,
+.swiper .swiper-button-next::after {
+    color: #7e7870;
+    font-size: 40px;
+}

@@ -1,0 +1,41 @@
+.partner {
+    background: $white;
+}
+
+.partners__body {
+    padding: 100px 0 210px;
+}
+
+.partner__head {
+    color: $black;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 100px;
+    position: relative;
+    text-transform: uppercase;
+
+    &:before {
+        content: "";
+        background: $blue;
+        width: 32px;
+        height: 4px;
+        position: absolute;
+        top: 20px;
+        left: 0;
+    }
+}
+
+.partners__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.parters__col {
+    padding: 8px 10px;
+    flex: 0 1 25%;
+    text-align: center;
+}
